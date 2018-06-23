@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <GridPane layoutX="15.0" layoutY="73.0" prefHeight="163.0" prefWidth="270.0">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="200.0" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="NEVER" maxWidth="200.0" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="200.0" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="200.0" minWidth="10.0" prefWidth="100.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints maxHeight="1.7976931348623157E308" minHeight="40.0" valignment="CENTER" vgrow="NEVER" />
+                <RowConstraints maxHeight="1.7976931348623157E308" minHeight="40.0" valignment="CENTER" vgrow="NEVER" />
+                <RowConstraints maxHeight="1.7976931348623157E308" minHeight="40.0" valignment="CENTER" vgrow="NEVER" />
+                <RowConstraints maxHeight="1.7976931348623157E308" minHeight="40.0" valignment="CENTER" vgrow="NEVER" />
+                <RowConstraints maxHeight="1.7976931348623157E308" minHeight="40.0" prefHeight="30.0" valignment="CENTER" vgrow="NEVER" />
+            </rowConstraints>
+            <children>
+                <Button fx:id="button7" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#actionButton7" text="7">
+                    <GridPane.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                    </GridPane.margin>
+                </Button>
+                <Button fx:id="button8" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#actionButton8" text="8" GridPane.columnIndex="1">
+                    <GridPane.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                    </GridPane.margin>
+                </Button>
+                <Button fx:id="button9" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#actionButton9" text="9" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.hgrow="NEVER" GridPane.valignment="CENTER" GridPane.vgrow="NEVER">
+                    <GridPane.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                    </GridPane.margin>
+                </Button>
+                <Button fx:id="buttonDivide" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#buttonDivide" text="/" GridPane.columnIndex="3">
+                    <GridPane.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                    </GridPane.margin>
+                </Button>
+                <Button fx:id="button4" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#actionButton4" text="4" GridPane.rowIndex="1">
+                    <GridPane.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                    </GridPane.margin>
+                </Button>
+                <Button fx:id="button5" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#actionButton5" text="5" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                    <GridPane.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                    </GridPane.margin>
+                </Button>
+                <Button fx:id="button6" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#actionButton6" text="6" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                    <GridPane.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                    </GridPane.margin>
+                </Button>
+                <Button fx:id="button1" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#actionButton1" text="1" GridPane.rowIndex="2">
+                    <GridPane.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                    </GridPane.margin>
+                </Button>
+                <Button fx:id="buttonMulti" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#buttonMulti" text="*" GridPane.columnIndex="3" GridPane.rowIndex="1">
+                    <GridPane.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                    </GridPane.margin>
+                </Button>
+                <Button fx:id="button2" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#actionButton2" text="2" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                    <GridPane.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                    </GridPane.margin>
+                </Button>
+                <Button fx:id="button3" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#actionButton3" text="3" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                    <GridPane.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                    </GridPane.margin>
+                </Button>
+                <Button fx:id="buttonSub" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#buttonSub" text="-" GridPane.columnIndex="3" GridPane.rowIndex="2">
+                    <GridPane.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                    </GridPane.margin>
+                </Button>
+                <Button fx:id="buttonPoint" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#actionPoint" text="," GridPane.rowIndex="3">
+                    <GridPane.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                    </GridPane.margin>
+                </Button>
+                <Button fx:id="button0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#actionButton0" text="0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                    <GridPane.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                    </GridPane.margin>
+                </Button>
+                <Button fx:id="clear" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#actionClear" text="C" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                    <GridPane.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                    </GridPane.margin>
+                </Button>
+                <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="+/-" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                    <GridPane.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                    </GridPane.margin>
+                </Button>
+                <Button fx:id="buttonAdd" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#buttonAdd" text="+" GridPane.columnIndex="3" GridPane.rowIndex="3">
+                    <GridPane.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                    </GridPane.margin>
+                </Button>
+                <Button fx:id="buttonCompare" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#buttonCompare" text="=" GridPane.columnIndex="2" GridPane.rowIndex="4">
+                    <GridPane.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                    </GridPane.margin>
+                </Button>
+            </children>
+        </GridPane>
+      <TextField fx:id="textArea" alignment="CENTER_RIGHT" editable="false" layoutX="15.0" layoutY="24.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="30.0" prefWidth="270.0">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font></TextField>
+    </children>
+</Pane>
